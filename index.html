@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>𝐑. 𝐎'𝐍𝐞𝐢𝐥𝐥 𝐋𝐚𝐭𝐭𝐚</title>
     <meta name="description" content="a fermentory">
 	<style>
@@ -87,7 +88,7 @@
         transform:rotate(360deg);
       }
     }
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
       body {
         min-height: unset;
         display: block;
@@ -99,9 +100,9 @@
       #glass {
         justify-self: flex-start;
         transform: rotate(20deg);
-        margin-bottom: -180px;
+        margin-bottom: -250px;
         margin-top: 30px;
-        margin-left:-20px;
+        margin-left:-40px;
       }
       #loop {
         margin-bottom: 20px;
@@ -117,8 +118,9 @@
         margin-top: 69px;
       }
       form {
-        width: 80vw;
-        transform: rotate(5deg);
+        width: 70vw;
+        max-width: 280px;
+        transform: rotate(2deg);
       }
     }
 	</style>
